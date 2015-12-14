@@ -1,0 +1,13 @@
+include:
+  - modules.base
+  - modules.ufw
+  - modules.nginx
+  - modules.php
+  - modules.composer
+  - modules.ruby
+  - modules.mysql
+  - modules.redis
+  - modules.memcached
+  - modules.supervisor
+  - modules.nodejs
+  - modules.monit

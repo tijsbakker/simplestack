@@ -1,0 +1,35 @@
+essential:
+  pkg.latest:
+    - pkgs:
+      - acl
+      - augeas-tools
+      - build-essential
+      - coreutils
+      - curl
+      - finger
+      - gcc
+      - git-core
+      - subversion
+      - htop
+      - language-pack-nl
+      - language-pack-en
+      - libattr1
+      - libattr1-dev
+      - make
+      - mytop
+      - nano
+      - python-augeas
+      - python-git
+      - python-software-properties
+      - python-pycurl
+      - sudo
+      - tar
+      - tree
+      - ufw
+      - unzip
+      - wget
+      - zip
+      - zsh
+      - language-pack-fr
+      - jpegoptim
+      - imagemagick
