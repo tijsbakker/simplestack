@@ -33,7 +33,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision :salt do |salt|
 
-    salt.bootstrap_options = "-P"
+    salt.bootstrap_options = "-F -c /tmp/ -P"
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
     salt.colorize = true
